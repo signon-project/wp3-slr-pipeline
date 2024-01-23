@@ -44,15 +44,17 @@ The following output types are currently supported (they can be set with the `--
 
 The following SLR models are available.
 
-| Language | Model                    | Description          | Validation accuracy | Download link                                            | Commit  |
-|----------|--------------------------|----------------------|---------------------|----------------------------------------------------------|---------|
-| NGT      | 3e-4 4x8 192-PoseFormer  | Trained from scratch | 47.26%              | https://cloud.ilabt.imec.be/index.php/s/c4wPQJYpXZNo9zp  | latest |
-| VGT      | 3e-4 4x8 192-PoseFormer  | Transfer from NGT    | 52.37%              | https://cloud.ilabt.imec.be/index.php/s/aqS8L4yKAstyCPL  | latest |
-| ISL      | 3e-4 4x8 192-PoseFormer  | Transfer from NGT    | 30.10%              | https://cloud.ilabt.imec.be/index.php/s/7XQzTCwwnJ9wNJC  | latest |
-| BSL      | 3e-4 4x8 192-PoseFormer  | Transfer from NGT    | 32.78%              | https://cloud.ilabt.imec.be/index.php/s/gqrXMTJFKSR5PtS  | latest |
-| LSE      | 3e-4 2x8 192-PoseFormer  | Transfer from NGT    | 59.40%              | https://cloud.ilabt.imec.be/index.php/s/EsboPg9qT4QwAs2  | latest |
+| Language | Model                    | Description          | Validation accuracy |
+|----------|--------------------------|----------------------|---------------------|
+| NGT      | 3e-4 4x8 192-PoseFormer  | Trained from scratch | 47.26%              |
+| VGT      | 3e-4 4x8 192-PoseFormer  | Transfer from NGT    | 52.37%              |
+| ISL      | 3e-4 4x8 192-PoseFormer  | Transfer from NGT    | 30.10%              |
+| BSL      | 3e-4 4x8 192-PoseFormer  | Transfer from NGT    | 32.78%              |
+| LSE      | 3e-4 2x8 192-PoseFormer  | Transfer from NGT    | 59.40%              |
 
 These models output `192`-dimensional embeddings.
+
+These SLR models can be downloaded from the [SignON HuggingFace page](https://huggingface.co/signon-project).
 
 ### Previous versions
 
